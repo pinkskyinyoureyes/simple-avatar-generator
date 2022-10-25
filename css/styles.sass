@@ -1,0 +1,83 @@
+body
+    display: flex
+    justify-content: center
+    background-color: rgba(66, 66, 66, 0.6)
+    font-family: 'Inter'
+    font-size: 20px
+
+    .container
+        width: 250px
+        height: 470px
+        background-color: rgba(190, 190, 190, 0.2)
+        border-radius: 20px
+        box-shadow: 0px 0px 10px rgba(185, 185, 185, 0.2)
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        margin-top: 30px
+
+        .generator-body
+            width: 150px
+
+            .avatar
+                width: 150px
+                height: 150px
+                background-color: #ffffff
+                border-radius: 50%
+                margin-bottom: 6px
+                border: 1px solid rgba(0, 0, 0, 0.2)
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+        input, .background-color-button, .letter-color-button, .download-button
+            width: 150px
+            height: 40px
+            border: 1px solid rgba(0, 0, 0, 0.2)
+            border-radius: 20px
+            background: #D9D9D9
+            margin: 6px 0px 6px 0px
+        
+        input
+            padding-left: 10px
+
+        input:hover
+            box-shadow: 0px 0px 20px #52b196
+            transition: border, box-shadow 0.3s
+
+        .download-button:hover
+            box-shadow: 0px 0px 20px #529bb1
+            transition: border, box-shadow 0.3s
+            color: #529bb1
+
+        .background-color-button:hover
+            box-shadow: 0px 0px 20px #7652b1
+            transition: border, box-shadow 0.3s
+            color: #7652b1
+
+        .letter-color-button:hover
+            box-shadow: 0px 0px 20px #b152ac
+            transition: border, box-shadow 0.3s
+            color: #b152ac        
+
+        .button-group
+            display: flex
+            justify-content: space-between
+            margin: 6px 0px 6px 0px
+
+            .generate-button, .clear-button
+                width: 69px
+                height: 25px
+                border-radius: 12.5px
+                border: 1px solid rgba(0, 0, 0, 0.2)
+
+            .generate-button:hover
+                box-shadow: 0px 0px 20px #52b15f
+                transition: border, box-shadow 0.3s
+                color: #52b15f
+                
+            .clear-button:hover
+                box-shadow: 0px 0px 20px #b15252
+                transition: border, box-shadow 0.3s
+                color: #b15252
+
+
